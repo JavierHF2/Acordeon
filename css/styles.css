@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+  }
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #F5F6F9;
+    height: 50px;
+}
+
+.contenedor_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.acordeon {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_principal {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.titulo_principal h1 {
+    font-size: 30px;
+}
+
+.atitulo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px lightgray solid;
+    padding: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+
+.boton {
+    width: 10%;
+    padding-left: 15px;
+    position: relative;
+}
+
+.botondesplegar {
+    padding: 0px 5px 2px 5px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+.apregunta {
+    width: 90%;
+}
+
+.apregunta h2 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.apregunta {
+    width: 90%;
+}
+
+.aopcion {
+    width: 100%;
+    display: none;
+}
+
+.aopciontexto {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 0px 10px 0px;
+}
+
+.aopcion p {
+    width: 90%;
+}
+
+
+
+
+.skills {
+    width: 50%;
+    padding: 30px;
+}
+
+.skill {
+    padding: 10px 0px 10px 0px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0px 12px 0px;
+}
+
+.barras {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#s1b1 {
+    width: 90%;
+    border: 2px blue solid;
+}
+
+#s1b2 {
+    width: 10%;
+    border: 2px lightgray solid;
+}
+
+#s2b1 {
+    width: 65%;
+    border: 2px yellow solid;
+}
+
+#s2b2 {
+    width: 35%;
+    border: 2px lightgray solid;
+}
+
+#s3b1 {
+    width: 100%;
+    border: 2px red solid;
+}
+
+#s3b2 {
+    display: none;
+    width: 0%;
+    border: 2px lightgray solid;
+}
+
+#s4b1 {
+    width: 75%;
+    border: 2px green solid;
+}
+
+#s4b2 {
+    width: 25%;
+    border: 2px lightgray solid;
+}
+
+footer {
+ height: 50px;
+ background-color: #333;
+}

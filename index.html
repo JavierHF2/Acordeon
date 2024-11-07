@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="ancho"></header>
+    <section class="contenedor_principal ancho">
+        <div class="acordeon">
+
+            <div class="titulo_principal">
+                <h1>Frequently Asked Questions</h1>
+            </div>
+
+            <div class="atitulo">
+                <div class="boton">
+                    <a class="botondesplegar" href="#">+</a>
+                    <div class="lineavertical"></div>
+                </div>
+                <div class="apregunta">
+                    <h2>Do you provide any scripts with your templates?</h2>
+                </div>
+            </div>
+
+            <article class="aopcion">
+                <div class="aopciontexto">
+                    <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields,
+                        forums,
+                        image galleries (in HTML versions of Flash products) are inactive. Basic scripts can be easily
+                        added
+                        at www.zemez.io If you are not sure that the element you're interested in is active please
+                        contact
+                        our Support Chat for clarification.</p>
+                </div>
+            </article>
+
+            <div class="atitulo">
+                <div class="boton">
+                    <a class="botondesplegar" href="#">+</a>
+                    <div class="lineavertical"></div>
+                </div>
+                <div class="apregunta">
+                    <h2>What do I receive when I order a template?</h2>
+                </div>
+            </div>
+
+            <article class="aopcion">
+                <div class="aopciontexto">
+                    <p>After you complete the payment via our secure form you will receive the instructions for
+                        downloading the product. The source files in the download package can vary based on the type of
+                        the product you have purchased.</p>
+                </div>
+            </article>
+
+            <div class="atitulo">
+                <div class="boton">
+                    <a class="botondesplegar" href="#">+</a>
+                    <div class="lineavertical"></div>
+                </div>
+                <div class="apregunta">
+                    <h2>In what formats are your templates availeable?</h2>
+                </div>
+            </div>
+
+            <article class="aopcion">
+                <div class="aopciontexto">
+                    <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the
+                        Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft®
+                        FrontPage®.</p>
+                </div>
+            </article>
+
+            <div class="atitulo">
+                <div class="boton">
+                    <a class="botondesplegar" href="#">+</a>
+                    <div class="lineavertical"></div>
+                </div>
+                <div class="apregunta">
+                    <h2>What am I allowed to do with the templates?</h2>
+                </div>
+            </div>
+
+            <article class="aopcion">
+                <div class="aopciontexto">
+                    <p>You may build a website using the template in any way you like. You may not resell or
+                        redistribute templates (like we do); claim intellectual or exclusive ownership to any of our
+                        products, modified or unmodified. All products are property of content providing companies and
+                        individuals.</p>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="skills">
+
+            <div class="titulo_principal">
+                <h1>Skills</h1>
+            </div>
+
+            <div class="skill">
+                <div class="texto">
+                    <h2>Branding</h2>
+                    <h2>90%</h2>
+                </div>
+                <div class="barras">
+                    <div id="s1b1"></div>
+                    <div id="s1b2"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="texto">
+                    <h2>Web Design</h2>
+                    <h2>65%</h2>
+                </div>
+                <div class="barras">
+                    <div id="s2b1"></div>
+                    <div id="s2b2"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="texto">
+                    <h2>Copywriting</h2>
+                    <h2>100%</h2>
+                </div>
+                <div class="barras">
+                    <div id="s3b1"></div>
+                    <div id="s3b2"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="texto">
+                    <h2>Video Production</h2>
+                    <h2>75%</h2>
+                </div>
+                <div class="barras">
+                    <div id="s4b1"></div>
+                    <div id="s4b2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ancho"></footer>
+
+    <script>
+
+
+        $(".atitulo").click(function () {
+            var t = $(this);
+            var tp = t.next();
+            tp.slideToggle();
+        })
+    </script>
+</body>
+
+</html>
